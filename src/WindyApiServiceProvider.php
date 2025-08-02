@@ -17,9 +17,6 @@ class WindyApiServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('windy-api')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_windy_api_table')
-            ->hasCommand(WindyApiCommand::class);
+            ->hasConfigFile();
     }
 }

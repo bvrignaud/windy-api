@@ -35,7 +35,6 @@
     "autoload": {
         "psr-4": {
             "Benoit VRIGNAUD\\WindyApi\\": "src/",
-            "Benoit VRIGNAUD\\WindyApi\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
