@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace WindyApi\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
