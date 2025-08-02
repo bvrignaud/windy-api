@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Benoit VRIGNAUD\WindyApi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class WindyApiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'windy-api';
 
     public $description = 'My command';
 
