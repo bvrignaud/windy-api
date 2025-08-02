@@ -1,5 +1,5 @@
 <?php
 
-use Benoit VRIGNAUD\WindyApi\Tests\TestCase;
+use WindyApi\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

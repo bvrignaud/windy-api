@@ -1,6 +1,6 @@
 <?php
 
-namespace Benoit VRIGNAUD\WindyApi\Facades;
+namespace WindyApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -11,6 +11,6 @@ class WindyApi extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Benoit VRIGNAUD\WindyApi\WindyApi::class;
+        return \WindyApi\WindyApi::class;
     }
 }

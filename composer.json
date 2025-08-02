@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Benoit VRIGNAUD\\WindyApi\\": "src/",
+            "WindyApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Benoit VRIGNAUD\\WindyApi\\Tests\\": "tests/",
+            "WindyApi\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Benoit VRIGNAUD\\WindyApi\\WindyApiServiceProvider"
+                "WindyApi\\WindyApiServiceProvider"
             ],
             "aliases": {
-                "WindyApi": "Benoit VRIGNAUD\\WindyApi\\Facades\\WindyApi"
+                "WindyApi": "WindyApi\\Facades\\WindyApi"
             }
         }
     },

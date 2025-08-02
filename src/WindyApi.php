@@ -1,5 +1,5 @@
 <?php
 
-namespace Benoit VRIGNAUD\WindyApi;
+namespace WindyApi;
 
 class WindyApi {}

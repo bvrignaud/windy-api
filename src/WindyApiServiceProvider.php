@@ -1,10 +1,9 @@
 <?php
 
-namespace Benoit VRIGNAUD\WindyApi;
+namespace WindyApi;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Benoit VRIGNAUD\WindyApi\Commands\WindyApiCommand;
 
 class WindyApiServiceProvider extends PackageServiceProvider
 {

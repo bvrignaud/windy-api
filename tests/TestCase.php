@@ -1,10 +1,10 @@
 <?php
 
-namespace Benoit VRIGNAUD\WindyApi\Tests;
+namespace WindyApi\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Benoit VRIGNAUD\WindyApi\WindyApiServiceProvider;
+use WindyApi\WindyApiServiceProvider;
 
 class TestCase extends Orchestra
 {
