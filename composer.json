@@ -1,6 +1,7 @@
 {
     "name": "bvrignaud/windy-api",
     "description": "A Laravel client for the Windy API",
+    "type": "library",
     "keywords": [
         "Benoit VRIGNAUD",
         "laravel",
