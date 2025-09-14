@@ -32,6 +32,7 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'key' => env('WINDY_API_KEY'),
 ];
 ```
 

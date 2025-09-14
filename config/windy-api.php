@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-// config for Benoit VRIGNAUD/WindyApi
 return [
-
+    'key' => env('WINDY_API_KEY'),
 ];
