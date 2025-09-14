@@ -24,7 +24,6 @@ readonly class WebcamDto
      * @param  WebcamCategoriesDto[]  $categories  Webcam categories
      * @param  WebcamPlayerUrlsDto|null  $player  Player information
      * @param  WebcamUrlsDto|null  $urls  Webcam URLs
-     * @param  array<string, mixed>  $rawData  Raw webcam data from the API
      */
     public function __construct(
         public int $id,
