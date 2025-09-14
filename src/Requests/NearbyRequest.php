@@ -9,7 +9,7 @@ readonly class NearbyRequest
     public function __construct(
         private float $latitude,
         private float $longitude,
-        private int   $radius,
+        private int $radius,
     ) {}
 
     public function toString(): string

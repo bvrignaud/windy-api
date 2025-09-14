@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace WindyApi\Dtos;
 
-use WindyApi\Enums\WebcamStatus;
 use Carbon\CarbonImmutable;
+use WindyApi\Enums\WebcamStatus;
 
 /**
  * DTO for a webcam from the Windy API

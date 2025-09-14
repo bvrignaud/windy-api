@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace WindyApi;
 
+use Illuminate\Http\Client\ConnectionException;
 use WindyApi\Dtos\PublicApiWebcamResponseDto;
 use WindyApi\Dtos\PublicApiWebcamsResponseDto;
 use WindyApi\Requests\WebcamRequest;
 use WindyApi\Requests\WebcamsRequest;
-use Illuminate\Http\Client\ConnectionException;
 
 class Webcams extends AbstractWindyApi
 {
