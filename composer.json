@@ -3,7 +3,6 @@
     "description": "A Laravel client for the Windy API",
     "type": "library",
     "keywords": [
-        "Benoit VRIGNAUD",
         "laravel",
         "windy-api"
     ],
@@ -13,7 +12,8 @@
         {
             "name": "Benoit VRIGNAUD",
             "email": "benoit.vrignaud@tangue.fr",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://www.tangue.fr"
         }
     ],
     "require": {
